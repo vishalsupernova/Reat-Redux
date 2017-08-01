@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT [object Object] Render 1`] = `
+<div>
+  <h3>
+    0
+  </h3>
+  <button
+    onClick={[Function]}
+  >
+    INC
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    DEC
+  </button>
+  <input
+    onKeyUp={[Function]}
+    placeholder="Increment"
+    type="text"
+  />
+  <input
+    onKeyUp={[Function]}
+    placeholder="Decrement"
+    type="text"
+  />
+</div>
+`;

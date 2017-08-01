@@ -5,7 +5,7 @@ function counter(state = initialState, action) {
         case 'INCREMENT':
             return { ...state, count: (parseInt(action.payload)) };
         case 'DECREMENT':
-            return { ...state, count: (action.payload) };
+            return { ...state, count: (parseInt(action.payload)) };
         case 'CHANGE': 
             return{...state, inc: parseInt(state.count) + (parseInt(action.payload)) }; //1
         case 'REDUCE':
